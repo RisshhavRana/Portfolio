@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Rishav logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#My Projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>DATA ANALYST</p>
+            <h1>Hi, I'm <span>Rishav Rana</span></h1>
+            <h2>Collect, Process, Analyse and Visualize data<br>From supporting everyday Business decisions to fuelling global change.</h2>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am an experienced Business Intelligence Data Analyst with a passion for helping organizations make data-driven decisions. With almost 4 years of experience in the field, I have developed a strong skillset in Data Analysis, Data Visualization, Data Modeling, and Business Intelligence reporting.<br>
+                   In my career, I have worked in well reputed industry under Discover Banking Project. My expertise includes Data Warehousing, ETL processes, SQL querying, and data analysis using Power BI, Tableau, and Excel tools.<br> In addition to technical skills, I possess excellent communication and problem-solving skills. I am a team player and have a proven track record of working collaboratively with cross-functional teams to achieve project objectives.<br>
+                   I am passionate about learning new technologies and staying up to date with the latest trends in the industry. I believe that the key to data analytics success is a curious and creative mindset, and I always strive to apply this philosophy to my work.<br> If you're looking for a Business Intelligence Data Analyst who can help your organization harness the power of data, please don't hesitate to reach out!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Machine Learning</span><br>Building Machine Learning Models for obtaining unseen insights.</li>
+                        <li><span>Data Visualization</span><br>Visualizing Data using Power BI and Tableau</li>
+                        <li><span>SQL</span><br>Strong SQL querying skillset</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Feb 2018 - Nov 2021 </span><br>Data Analyst at Capgemini India</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-Present</span><br>Post Graduation in Data Analyics for Business from Canada.</li>
+                        <li><span>2013-2017</span><br>Bachelors in Engineering from India.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Data Analytics</h2>
+                <p>Getting insights and value from Data with prediction models and Machine Learning techniques.</p>
+                <a href="https://www.linkedin.com/in/rishav-rana-40aa8a152/">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-chart-pie"></i>
+                <h2>Visualization</h2>
+                <p>Building effective and engaging Dashboards along with Story using Tableau and Power BI.</p>
+                <a href="https://www.linkedin.com/in/rishav-rana-40aa8a152/">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Proficient in utilizing powerful libraries such as NumPy and Pandas to clean, transform, and manipulate complex datasets for insightful decision-making.</p>
+                <a href="https://www.linkedin.com/in/rishav-rana-40aa8a152/">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-database"></i>
+                <h2>SQL</h2>
+                <p>Proficient in Designing and Implementing complex queries and Database structures.</p>
+                <a href="https://www.linkedin.com/in/rishav-rana-40aa8a152/">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------Projects------------ -->
+<div id="My Projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Driver.jpg">
+                <div class="layer">
+                    <h3>Drowziness Detection Sytem using Machine Learning</h3>
+                    <p>Realtime Drowziness Detection System having 97% Accuracy using Machine Learning Models.</p>
+                    <a href="https://github.com/RisshhavRana/Capstone-Project---Group-3"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Airbnb.jpg">
+                <div class="layer">
+                    <h3>Real Estate Marketing Analytics on Airbnb</h3>
+                    <p>In this project, I delved into the world of real estate marketing analytics on Airbnb in Washington, exploring the
+                        key metrics and trends that hosts should be aware of to maximize their revenue potential.<br>Real estate marketing 
+                        analytics is a crucial aspect of the hospitality industry, especially for home-sharing platforms like Airbnb.
+                    </p>
+                    <a href="https://github.com/RisshhavRana/Marketing-Project"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Drone.jpg">
+                <div class="layer">
+                    <h3>Drone Wars Analysis using Tableau</h3>
+                    <p>Wars cause not only death and destruction but also permanent physical and mental hurt, which continues to haunt 
+                        those who get affected by them until the end. I not only analyzed  the death-toll of people but also focused on the injured civilians and innocent children.</p>
+                    <a href="https://github.com/RisshhavRana/Drone-Wars-Analysis-via-Tableau/tree/main"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/RisshhavRana" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> officialrishav1994@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> +1 (519) 991-7503</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rishav-rana-40aa8a152/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/rishav.rana.144"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/_OfficialRishav"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/iamrishavrana/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made wtih <i class="fas fa-heart"></i> by <a href="https://www.linkedin.com/in/rishav-rana-40aa8a152/">Rishav Rana</a></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
